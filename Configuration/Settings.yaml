@@ -1,6 +1,6 @@
 T3DD:
   Login:
-    ssoURL: 'https://typo3.org/my-account/sso/t3dd15/'
+    ssoURL: 'https://typo3.org/my-account/sso/t3dd15-dev/'
 TYPO3:
   Flow:
     object:
