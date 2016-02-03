@@ -21,12 +21,6 @@ use TYPO3\Flow\Annotations as Flow;
 class AnonymousAuthenticationController extends AuthenticationController {
 
 	/**
-	 * @var \TYPO3\Flow\Security\Policy\PolicyService
-	 * @Flow\Inject
-	 */
-	protected $policyService;
-
-	/**
 	 */
 	public function loginAction() {
 		$this->forward('authenticate');
