@@ -3,7 +3,7 @@
   uriPattern: 'sso/login'
   defaults:
     '@package':    'T3DD.Login'
-    '@controller': 'Authentication'
+    '@controller': 'AnonymousAuthentication'
     '@action':     'login'
 
 -
@@ -11,7 +11,7 @@
   uriPattern: 'sso/logout'
   defaults:
     '@package':    'T3DD.Login'
-    '@controller': 'Authentication'
+    '@controller': 'AnonymousAuthentication'
     '@action':     'logout'
 
 -
@@ -19,7 +19,7 @@
   uriPattern: 'sso/status'
   defaults:
     '@package':    'T3DD.Login'
-    '@controller': 'Authentication'
+    '@controller': 'AnonymousAuthentication'
     '@action':     'status'
     '@format':     'json'
 
@@ -28,7 +28,7 @@
   uriPattern: 'sso/callback/{requestID}'
   defaults:
     '@package':    'T3DD.Login'
-    '@controller': 'Authentication'
+    '@controller': 'AnonymousAuthentication'
     '@action':     'callback'
     '@format':     'html'
 
@@ -37,5 +37,5 @@
   uriPattern: 'sso'
   defaults:
     '@package':    'T3DD.Login'
-    '@controller': 'Authentication'
+    '@controller': 'AnonymousAuthentication'
     '@action':     'authenticate'
